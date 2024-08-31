@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="survey-container">
+        <div id="survey-form">
+          <img src="icon-star.svg" class="image">
+            <h2>How did we do?</h2>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div class="rating">
+                <button class="rating-option" data-value="1">1</button>
+                <button class="rating-option" data-value="2">2</button>
+                <button class="rating-option" data-value="3">3</button>
+                <button class="rating-option" data-value="4">4</button>
+                <button class="rating-option" data-value="5">5</button>
+            </div>
+            <button id="submit-button">SUBMIT</button>
+        </div>
+        <div id="thank-you-message" style="display:none;">
+          <img src="illustration-thank-you.svg">
+            <p id="selected-rating"></p>
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
